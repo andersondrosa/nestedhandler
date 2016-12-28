@@ -1,10 +1,10 @@
 <?php
 
-namespace NestedHandler;
+namespace AndersonDRosa\NestedHandler;
 
 class NestedHandler
 {
-    use \Asterid\Traits\Listener;
+    use \AndersonDRosa\Traits\Listener;
 
     public function __construct(array $config = null)
     {
